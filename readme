@@ -1,0 +1,16 @@
+Enabling IIS to run with PHP is not a fun thing!
+
+1) Enable IIS 
+    - Windows Features in Win Search
+    - IIS - check all + CGI from App Dev Features
+
+
+2) Add PHP to IIS
+    - https://www.iis.net/learn/application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-1-install-iis-and-php#13
+    - Use Web PI to install all the components
+
+3) Follow tutorial to setup new App in IIS
+    - modify Host file for DNS issues
+
+4) Include FastCGI for PHP
+    - Look at the link above
