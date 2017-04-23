@@ -14,3 +14,5 @@ Enabling IIS to run with PHP is not a fun thing!
 
 4) Include FastCGI for PHP
     - Look at the link above
+
+5) If everything went well, phpinfo should work
