@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html>
-<body>
+<?php 
+    require_once('Database/dbContext.php');
 
-    <?php
-
-    // Show all information, defaults to INFO_ALL
-    phpinfo();
-
-    ?>
-
-</body>
-</html>
+    if(isset($_GET['controller']) && isset($_GET['action'])) {
+        $controller = $_GET['controller'];
+        $action = $_GET['action'];
+    } else {
+        $controller = 'pages';
+        $action = 'home';
+    }
+    require_once('Views/Shared/Layout.php');
+?>
