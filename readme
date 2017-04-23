@@ -16,3 +16,10 @@ Enabling IIS to run with PHP is not a fun thing!
     - Look at the link above
 
 5) If everything went well, phpinfo should work
+
+6) To enable XDebug for VSCode
+    - https://blogs.msdn.microsoft.com/nicktrog/2016/02/11/configuring-visual-studio-code-for-php-development/
+    - Follow tutorial
+    - Start server, setup breakpoint
+    - Should work on default port, if it does not, test the 9000 port, or whatever is written in launch.json
+    - if it's endlessly loading, enable firewall for port of debugger
