@@ -10,7 +10,7 @@
         public static function getDbContextInstance() {
             if(!isset (self::$instance)) {
                 $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
-                self:: $instance = new PDO("sqlsrv:DESKTOP-M9BFD6K;Database=" + $dbName, $userName, $password);
+                self:: $instance = new PDO("sqlsrv:Server=DESKTOP-M9BFD6K;Database=FirstPHPAppDB", "sa", "Password11__");
             }
             return self::$instance;
         }

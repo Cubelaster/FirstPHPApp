@@ -25,3 +25,8 @@ Enabling IIS to run with PHP is not a fun thing!
     - Should work on default port, if it does not, test the 9000 port, or whatever is written in launch.json
     - if it's endlessly loading, enable firewall for port of debugger
     - typical indicator that the port is firewalled is "connection closed" message in debug console
+
+7) Fun is not over
+    - To enable PHP to connect to MSSQL DB, you need drivers
+    - https://www.saotn.org/install-microsoft-sql-server-driver-php/
+    - Official Microsoft site doesn't have the 7.1 at the moment, that's why the link
